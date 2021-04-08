@@ -13,9 +13,9 @@ export const Navbar = () => {
 
         const action = {
             type: types.logout,
-            payload: {
-                ...user
-            }
+            // payload: {
+            //     ...user
+            // }
         };
 
         dispatch(action);

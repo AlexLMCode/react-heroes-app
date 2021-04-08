@@ -18,7 +18,7 @@ export const LoginScreen = ({ history }) => {
         };
 
         dispatch(action);
-
+        //console.log(history);
         history.replace(lastPath);
 
     };

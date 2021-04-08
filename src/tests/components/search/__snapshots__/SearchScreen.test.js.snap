@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <SearchScreen/> should render with the default values 1`] = `
+<div>
+  <h3>
+    Search Screen
+  </h3>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find Your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn mt-1 btn-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results:
+      </h4>
+      <div
+        className="alert alert-primary"
+        role="alert"
+      >
+        Search a Hero
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tests in <SearchScreen/> should show Batman and the input with the value of the query string 1`] = `
+<div>
+  <h3>
+    Search Screen
+  </h3>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find Your hero"
+          type="text"
+          value="Batman"
+        />
+        <button
+          className="btn mt-1 btn-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results:
+      </h4>
+      <div
+        className="card mb-3 animate__animated animate__fadeInUpBig"
+        style={
+          Object {
+            "width": "18rem",
+          }
+        }
+      >
+        <img
+          alt="Batman"
+          className="card-img-top"
+          src="./assets/heroes/dc-batman.jpg"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Batman
+          </h5>
+          <h6
+            className="card-subtitle mb-2 text-muted"
+          >
+            DC Comics
+          </h6>
+          <p
+            className="card-text"
+          >
+            <small>
+              Detective Comics #27
+            </small>
+          </p>
+          <a
+            className="btn btn-primary"
+            href="/heroe/dc-batman"
+            onClick={[Function]}
+          >
+            See Hero
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
